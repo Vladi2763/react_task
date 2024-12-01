@@ -1,0 +1,12 @@
+export enum PostActions {
+  SET_POSTS = 'SET_POSTS',
+  DELETE_POST = 'DELETE_POST',
+  CREATE_POST = 'CREATE_POST',
+  EDIT_POST = 'EDIT_POST',
+  SELECT_POST = 'SELECT_POST',
+}
+
+export enum CommentActions {
+  SET_COMMENTS = 'SET_COMMENTS',
+  CLEAR_COMMENTS = 'CLEAR_COMMENTS',
+}
